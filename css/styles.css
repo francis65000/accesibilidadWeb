@@ -27,8 +27,19 @@ Colors:
 - Body text - dark gray #53575a
 - Buttons, icons - green #7dc22b
 ******************************************/
+/*
+ESTILOS PERSONALIZADOS
+*/
 
+.banner{
+	size: 10%;
+}
 
+.icono {
+	color: #ffffff;
+    font-size: 2.125rem;
+    line-height: 90px;
+}
 /**************************/
 /*     General Styles     */
 /**************************/
@@ -471,7 +482,7 @@ a:hover {
 	bottom: 0;
 	min-width: 100%;
 	min-height: 100%;
-	width: auto;
+	width: 50%;
 	height: auto;
 	z-index: -100; 
 }
@@ -484,10 +495,17 @@ a:hover {
 	text-align: center; 
 }
 
-.header .h1-large {
+.header .h1-large{
 	margin-bottom: 2.25rem;
 	color: #ffffff;
 	font-size: 3rem;
+	line-height: 3.75rem;
+}
+
+.h3-large {
+	margin-bottom: 2.25rem;
+	color: #ffffff;
+	font-size: 2rem;
 	line-height: 3.75rem;
 }
 
@@ -527,7 +545,7 @@ a:hover {
 	margin-bottom: 2rem;
 	margin-left: auto;
 	border-radius: 50%;
-	background-color: #7dc22b;
+	background-color: #2b6fc2;
 	text-align: center;
 }
 
