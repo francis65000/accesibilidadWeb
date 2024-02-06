@@ -40,6 +40,10 @@ ESTILOS PERSONALIZADOS
     font-size: 2.125rem;
     line-height: 90px;
 }
+
+.tabla {
+	border: 2px solid black;
+}
 /**************************/
 /*     General Styles     */
 /**************************/
