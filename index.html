@@ -50,13 +50,13 @@
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#header" tabindex="1">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#galeria">Galería de imágenes</a>
+                        <a class="nav-link" href="#galeria" tabindex="2">Galería de imágenes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tabla">Tablas accesibles</a>
+                        <a class="nav-link" href="#tabla" tabindex="3">Tablas accesibles</a>
                     </li>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
@@ -69,7 +69,7 @@
                         </ul>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact">Formulario</a>
+                        <a class="nav-link" href="#contact" tabindex="4">Formulario</a>
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
@@ -99,13 +99,13 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="video-container">
-                        <video width="1100" height="800" autoplay preload="auto" controls id="header-video" tabindex="1" aria-label="Video de presentación, pulsa enter para reproducir">
+                        <video width="1100" height="800" autoplay preload="auto" controls id="header-video" tabindex="5" aria-label="Video de presentación, pulsa enter para reproducir">
                             <source src="./assets/talking-avatar_qnAFK4YC.mp4" type="video/mp4">
                         </video>
                     </div>
                 </div>
                 <div class="col-lg-12">
-                    <a class="btn-solid-lg" href="#projects" tabindex="2" aria-label="Descubrir más sobre la introducción">Descubrir</a>
+                    <a class="btn-solid-lg" href="#projects" tabindex="6" aria-label="Descubrir más sobre la introducción">Descubrir</a>
                 </div>
                 <!-- Fin de la columna -->
             </div> <!-- Fin de la fila -->
@@ -131,7 +131,10 @@
 		<div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">Titulo</h2>
+                    <h2 class="h2-heading">1: Percepcion de imágenes</h2>
+                    <p tabindex="7"><strong>Esta primera experiencia consiste en que puedas navegar por nuestra galeria de imagenes, 
+                        y elijas, cual de ellas es tu fotografía favorita. Mas tarde nos interesaremos por tus gustos.
+                    </strong></p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
@@ -146,31 +149,31 @@
                     </div> <!-- end of button group -->
                     <div class="grid">
                         <div class="element-item daltonismo">
-                            <img class="img-fluid" src="images/daltonismo.jpg" alt="Imagen de daltonismo colores">
+                            <img class="img-fluid" src="images/daltonismo.jpg" alt="Imagen de daltonismo colores" tabindex="8">
                         </div>
                         <div class="element-item daltonismo">
-                            <img class="img-fluid" src="images/diferencia_colores_daltonismo.jpg" alt="Imagen de diferencia de colores daltonismo">
+                            <img class="img-fluid" src="images/diferencia_colores_daltonismo.jpg" alt="Imagen de diferencia de colores daltonismo" tabindex="9">
                         </div>
                         <div class="element-item daltonismo">
-                            <img class="img-fluid" src="images/ejemplo_vision_daltonismo.jpg" alt="Imagen de ejemplo de vision daltonismo">
+                            <img class="img-fluid" src="images/ejemplo_vision_daltonismo.jpg" alt="Imagen de ejemplo de vision daltonismo" tabindex="10">
                         </div>
                         <div class="element-item business auditivas">
-                            <img class="img-fluid" src="images/dificultades_auditivas.jpg" alt="Imagen de persona con dificultades auditivas">
+                            <img class="img-fluid" src="images/dificultades_auditivas.jpg" alt="Imagen de persona con dificultades auditivas" tabindex="11">
                         </div>
                         <div class="element-item business auditivas">
-                            <img class="img-fluid" src="images/persona_problemas_auditivos.jpg" alt="Imagen de persona con problemas auditivos">
+                            <img class="img-fluid" src="images/persona_problemas_auditivos.jpg" alt="Imagen de persona con problemas auditivos" tabindex="12">
                         </div>
                         <div class="element-item business auditivas">
-                            <img class="img-fluid" src="images/persona_con_problemas_auditivos.jpg" alt="Imagen de persona que posee dificultades auditivas">
+                            <img class="img-fluid" src="images/persona_con_problemas_auditivos.jpg" alt="Imagen de persona que posee dificultades auditivas" tabindex="13">
                         </div>
                         <div class="element-item business neurologicas">
-                            <img class="img-fluid" src="images/dificultades_neurologicas.jpg" alt="Imagen de dificutades neurologicas">
+                            <img class="img-fluid" src="images/dificultades_neurologicas.jpg" alt="Imagen de dificutades neurologicas" tabindex="14">
                         </div>
                         <div class="element-item business neurologicas">
-                            <img class="img-fluid" src="images/neurologicas.jpg" alt="Imagen de neurologico">                           
+                            <img class="img-fluid" src="images/neurologicas.jpg" alt="Imagen de neurologico" tabindex="15">                           
                         </div>
                         <div class="element-item business neurologicas">
-                            <img class="img-fluid" src="images/persona_con_dificultades_motrices_neurologicas.jpg" alt="Imagen de perosna con dificultades motrices y neurologicas">                     
+                            <img class="img-fluid" src="images/persona_con_dificultades_motrices_neurologicas.jpg" alt="Imagen de perosna con dificultades motrices y neurologicas" tabindex="16">                     
                         </div>
                     </div> <!-- end of grid -->
                     <!-- end of filter -->
@@ -180,11 +183,21 @@
 		</div> <!-- end of container -->
     </div> <!-- end of filter -->
     <!-- end of projects -->
-
+<br>
 
     <!-- TABLA 2 -->
+    
+    
     <div class="slider-1" id="tabla">
-        <h1 class="text-center">Planes para crear tu web 100% accesible</h1>
+        <div class="col-lg-12 text-center">
+            <h2 class="h2-heading">2:Acceso a la información</h2>
+            <p tabindex="7"><strong>Todos tenemos derecho a la información. Pero la información, cada vez mas, está en un formato digital. 
+                Que el acceso a la misma sea fácil para todo el mundo es sólo una cuestión de voluntad y a veces también de dinero.
+                En esta prueba, te presentamos una tabla de datos, que indican el coste de accesibilidad de una web.
+                Mas tarde, nos interesaremos sobre tu opinion. ¿Crees que las cifras son asequibles?.
+            </strong></p>
+        </div>
+        
         <div class="d-flex justify-content-center">
             <table class="table p-0">
                 <thead class="text-center">
