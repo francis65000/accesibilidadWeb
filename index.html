@@ -92,31 +92,37 @@
     <!-- end of navigation -->
 
       
-    <!-- Header -->
-    <header id="header" class="header">
-        <div class="header-content">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <video width="1100" height="800" autoplay preload="auto" controls>
+<!-- Encabezado -->
+<header id="header" class="header">
+    <div class="header-content">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="video-container">
+                        <video width="1100" height="800" autoplay preload="auto" controls id="header-video" tabindex="1" aria-label="Video de presentación, pulsa enter para reproducir">
                             <source src="./assets/talking-avatar_qnAFK4YC.mp4" type="video/mp4">
                         </video>
                     </div>
-                    <div class="col-lg-12">
-                        <a class="btn-solid-lg" href="#introduction">Discover</a>
-                    </div> 
-                    <!-- end of col -->
-                </div> <!-- end of row -->
-            </div> <!-- end of container -->
-        </div> <!-- end of header-content -->
-        
-        <!-- Video Background -->
+                </div>
+                <div class="col-lg-12">
+                    <a class="btn-solid-lg" href="#projects" tabindex="2" aria-label="Descubrir más sobre la introducción">Descubrir</a>
+                </div>
+                <!-- Fin de la columna -->
+            </div> <!-- Fin de la fila -->
+        </div> <!-- Fin del contenedor -->
+    </div> <!-- Fin del contenido del encabezado -->
+
+    <!-- Fondo de Video -->
+    <div class="video-background-container" tabindex="0">
         <video autoplay loop muted id="video-background" poster="images/header-background.jpg" playsinline>
             <source src="images/header-background-video.mp4" type="video/mp4" />
         </video>
-        <!-- end of video background -->
+    </div>
+    <!-- Fin del fondo de video -->
 
-    </header> <!-- end of header -->
+</header> <!-- Fin del encabezado -->
+ <!-- Fin del encabezado -->
+
     <!-- end of header -->
 
 
