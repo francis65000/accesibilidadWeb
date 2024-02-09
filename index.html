@@ -222,7 +222,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
-                    <h2 style="color: white;">Encuesta sobre su experiencia web de accesibilidad</h2>
+                    <h2 style="color: white; margin-bottom: 60px;">Encuesta sobre su experiencia web de accesibilidad</h2>
                     <!-- Contact Form -->
                     <form class="formulario">
                         <div class="form-group">
@@ -269,36 +269,36 @@
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="mfacil" id="mfacil">
-                                <label class="form-check-label" for="mfacil">Muy fácil</label>
+                                <input class="form-check-input" type="radio"  name="dificultad" id="dificultad">
+                                <label class="form-check-label" for="dificultad">Muy fácil</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="facil" id="facil">
-                                <label class="form-check-label" for="facil">Fácil</label>
+                                <input class="form-check-input" type="radio"  name="dificultad" id="dificultad">
+                                <label class="form-check-label" for="dificultad">Fácil</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="moderada" id="moderada">
-                                <label class="form-check-label" for="moderada">Moderada</label>
+                                <input class="form-check-input" type="radio"  name="dificultad" id="dificultad">
+                                <label class="form-check-label" for="dificultad">Moderada</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="dificil" id="dificil">
-                                <label class="form-check-label" for="dificil">Difícil</label>
+                                <input class="form-check-input" type="radio"  name="dificultad" id="dificultad">
+                                <label class="form-check-label" for="dificultad">Difícil</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="mdificil" id="mdificil">
-                                <label class="form-check-label" for="mdificil">Muy difícil</label>
+                                <input class="form-check-input" type="radio"  name="dificultad" id="dificultad">
+                                <label class="form-check-label" for="dificultad">Muy difícil</label>
                             </div>
                         </div>
                         <div class="form-group">
-                            ¿Encontró alguna barrera para acceder a contenido específico? Si es así, escribe tu respuesta.
+                            ¿Encontró alguna barrera para acceder a contenido específico? Si es así, escriba su respuesta.
                         </div>
                         <div class="form-group">
                             <input type="text" class="form-control-input" placeholder="Escriba su respuesta">
@@ -309,13 +309,13 @@
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="si" id="si">
+                                <input class="form-check-input" type="radio"  name="respuesta" id="respuesta">
                                 <label class="form-check-label" for="si">Sí</label>
                             </div>
                         </div>
                         <div class="form-group">
                             <div class="form-check form-check-inline">
-                                <input class="form-check-input" type="checkbox"  name="no" id="no">
+                                <input class="form-check-input" type="radio"  name="respuesta" id="respuesta">
                                 <label class="form-check-label" for="no">No</label>
                             </div>
                         </div>
@@ -329,7 +329,7 @@
                             <textarea class="form-control-textarea" placeholder="Comentarios adicionales"></textarea>
                         </div>
                         <div class="form-group">
-                            <button type="submit" class="form-control-submit-button">Enviar</button>
+                            <button type="submit" aria-label="Enviar formulario" class="form-control-submit-button">Enviar</button>
                         </div>
                     </form>
                     <!-- end of contact form -->
