@@ -37,8 +37,7 @@
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
         <div class="container">
 
-            <!-- Image Logo -->
-            <a class="navbar-brand logo-image" href="index.html"><img src="images/logo.svg" alt="alternative"></a> 
+           
 
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text" href="index.html">Desi</a> -->
@@ -57,16 +56,6 @@
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#tabla" tabindex="3">Tablas accesibles</a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="false">Drop</a>
-                        <ul class="dropdown-menu" aria-labelledby="dropdown01">
-                            <li><a class="dropdown-item" href="article.html">Article Details</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="terms.html">Terms Conditions</a></li>
-                            <li><div class="dropdown-divider"></div></li>
-                            <li><a class="dropdown-item" href="privacy.html">Privacy Policy</a></li>
-                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#contact" tabindex="4">Formulario</a>
@@ -186,51 +175,58 @@
 <br>
     <!-- TABLA 2 -->
     
-    
     <div class="slider-1" id="tabla">
         <div class="col-lg-12 text-center">
-            <h2 class="h2-heading">2:Acceso a la información</h2>
-            <p tabindex="7"><strong>Todos tenemos derecho a la información. Pero la información, cada vez mas, está en un formato digital. 
-                Que el acceso a la misma sea fácil para todo el mundo es sólo una cuestión de voluntad y a veces también de dinero.
-                En esta prueba, te presentamos una tabla de datos, que indican el coste de accesibilidad de una web.
-                Mas tarde, nos interesaremos sobre tu opinion. ¿Crees que las cifras son asequibles?.
-            </strong></p>
+            <h2 class="h2-heading" abindex="17">2: Acceso a la información</h2>
+            <div class="col-lg-12">
+                <div class="mx-auto" style="max-width: 56%;">
+                    <div tabindex="18" class="paragraph-table"><strong>Todos tenemos derecho a la información. Pero la información, cada vez más, está en un formato digital.
+                            Que el acceso a la misma sea fácil para todo el mundo es solo una cuestión de voluntad y a veces también de dinero.
+                            En esta prueba, te presentamos una tabla de datos que indican el coste de accesibilidad de una web.
+                            Más tarde, nos interesaremos sobre tu opinión. ¿Crees que las cifras son asequibles?.</strong>
+                    </div>
+                </div><br><br><br>
+            </div>
         </div>
-        
         <div class="d-flex justify-content-center">
-            <table class="table p-0">
-                <thead class="text-center">
-                    <tr>
-                        <th headers="plan" scope="col">Plan</th>
-                        <th headers="descipcion" scope="col">Descripción</th>
-                        <th headers="precio" scope="col">Precio</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <th class="text-center" scope="row">Básico</th>
-                        <td class="text-center" scope="descripcion">Diseño de página web básica con hasta 5 páginas, estructura HTML semántica para mejorar la accesibilidad, <br> etiquetas alt para imágenes, y contraste adecuado de colores.</td>
-                        <td class="text-center" scope="precio">500€</td>
-                    </tr>
-                    <tr>
-                        <th class="text-center" scope="row">Estándar</th>
-                        <td class="text-center" scope="descipcion">Diseño web con características adicionales como integración de herramientas de lectura de pantalla, <br> teclado y navegación por voz, cumplimiento de estándares WCAG, y optimización para dispositivos móviles.</td>
-                        <td class="text-center" scope="precio">900€</td>
-                    </tr>
-                    <tr>
-                        <th class="text-center" scope="row">Avanzado</th>
-                        <td class="text-center" scope="descripcion">Diseño web avanzado con enfoque en la accesibilidad, incluyendo pruebas de usabilidad con usuarios con discapacidad, <br> implementación de ARIA roles y atributos, y garantía de compatibilidad con diversas tecnologías de asistencia.</td>
-                        <td class="text-center" scope="precio">1500€</td>
-                    </tr>
-                </tbody>
-            </table>
+            <!-- Aplicación de clases de Bootstrap a la tabla -->
+            <div class="table-responsive">
+                <table class="table table-striped table-bordered p-0">
+                    <thead class="text-center">
+                        <tr>
+                            <th id="plan" scope="col">Plan</th>
+                            <th id="descripcion" scope="col">Descripción</th>
+                            <th id="precio" scope="col">Precio</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <th class="text-center" scope="row" tabindex="18">Básico</th>
+                            <td class="text-center" scope="descripcion" tabindex="19">Diseño de página web básica con hasta 5 páginas, estructura HTML semántica para mejorar la accesibilidad, <br> etiquetas alt para imágenes, y contraste adecuado de colores.</td>
+                            <td class="text-center" scope="precio" tabindex="20">500€</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center" scope="row" tabindex="21">Estándar</th>
+                            <td class="text-center" scope="descripcion" tabindex="22">Diseño web con características adicionales como integración de herramientas de lectura de pantalla, <br> teclado y navegación por voz, cumplimiento de estándares WCAG, y optimización para dispositivos móviles.</td>
+                            <td class="text-center" scope="precio" tabindex="23">900€</td>
+                        </tr>
+                        <tr>
+                            <th class="text-center" scope="row" tabindex="24">Avanzado</th>
+                            <td class="text-center" scope="descripcion" tabindex="25">Diseño web avanzado con enfoque en la accesibilidad, incluyendo pruebas de usabilidad con usuarios con discapacidad, <br> implementación de ARIA roles y atributos, y garantía de compatibilidad con diversas tecnologías de asistencia.</td>
+                            <td class="text-center" scope="precio" tabindex="26">1500€</td>
+                        </tr>
+                    </tbody><!-- Contenido de la tabla -->
+                </table>
+    
+            </div>
         </div>
     </div>
+    
     
 
 
     <!-- FORMULARIO 3 -->
-    <div id="contact" class="form-1">
+    <div id="contact" class="form-1 filter bg-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 offset-lg-1">
