@@ -35,6 +35,7 @@
     
     <!-- Navigation -->
     <nav id="navbar" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+
         <div class="container">
 
            
@@ -42,23 +43,23 @@
             <!-- Text Logo - Use this if you don't have a graphic logo -->
             <!-- <a class="navbar-brand logo-text" href="index.html">Desi</a> -->
 
-            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation" aria-expanded="false" aria-controls="navbarsExampleDefault">
                 <span class="navbar-toggler-icon"></span>
             </button>
 
             <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
                 <ul class="navbar-nav ms-auto navbar-nav-scroll">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#header" tabindex="1">Inicio</a>
+                        <a class="nav-link active" aria-current="page" href="#header" tabindex="1" aria-label="Ir a la sección de Inicio">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#galeria" tabindex="2">Galería de imágenes</a>
+                        <a class="nav-link" href="#galeria" tabindex="2" aria-label="Ir a la Galería de imágenes">Galería de imágenes</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#tabla" tabindex="3">Tablas accesibles</a>
+                        <a class="nav-link" href="#tabla" tabindex="3" aria-label="Ir a la sección de Tablas accesibles">Tablas accesibles</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#contact" tabindex="4">Formulario</a>
+                        <a class="nav-link" href="#contact" tabindex="4" aria-label="Ir a la sección de Formulario">Formulario</a>
                     </li>
                 </ul>
                 <span class="nav-item social-icons">
@@ -88,7 +89,8 @@
             <div class="row">
                 <div class="col-lg-12">
                     <div class="video-container">
-                        <video width="1100" height="800" autoplay preload="auto" controls id="header-video" tabindex="5" aria-label="Video de presentación, pulsa enter para reproducir">
+                        <video width="1100" height="800" autoplay preload="auto" controls id="header-video" tabindex="5" aria-label="Video de presentación con subtítulos, pulsa enter para reproducir">
+                            <track kind="captions" label="Español" src="ruta/subtitulos.vtt" srclang="es" default>
                             <source src="./assets/talking-avatar_qnAFK4YC.mp4" type="video/mp4">
                         </video>
                     </div>
@@ -116,27 +118,25 @@
 
 
     <!-- GALERIA 1 -->
-	<div id="galeria" class="filter bg-gray">
-		<div class="container">
+    <div id="galeria" class="filter bg-gray" aria-labelledby="galeria-heading">
+        <div class="container">
             <div class="row">
                 <div class="col-lg-12">
-                    <h2 class="h2-heading">1: Percepcion de imágenes</h2>
-                    <p tabindex="7"><strong>Esta primera experiencia consiste en que puedas navegar por nuestra galeria de imagenes, 
-                        y elijas, cual de ellas es tu fotografía favorita. Mas tarde `reguntaré por tus gustos.
-                    </strong></p>
+                    <h2 id="galeria-heading">1: Percepción de imágenes</h2>
+                    <p tabindex="7"><strong>Esta primera experiencia consiste en que puedas navegar por nuestra galería de imágenes y elijas cuál de ellas es tu fotografía favorita. Más tarde preguntaremos por tus gustos.</strong></p>
                 </div> <!-- end of col -->
             </div> <!-- end of row -->
             <div class="row">
                 <div class="col-lg-12">
-                    
                     <!-- Filter -->
+                    <p>Selecciona una categoría:</p>
                     <div class="button-group filters-button-group">
-                        <button class="button is-checked" data-filter="*">VER TODAS</button>
-                        <button class="button" data-filter=".daltonismo">DALTONISMO</button>
-                        <button class="button" data-filter=".auditivas">DIFICULTADES AUDITIVAS</button>
-                        <button class="button" data-filter=".neurologicas">DIFICULTADES NEUROLOGICAS Y MOTRICES</button>
+                        <button class="button is-checked" data-filter="*"><span>Todas</span></button>
+                        <button class="button" data-filter=".daltonismo"><span>DALTONISMO</span></button>
+                        <button class="button" data-filter=".auditivas"><span>DIFICULTADES AUDITIVAS</span></button>
+                        <button class="button" data-filter=".neurologicas"><span>DIFICULTADES NEUROLOGICAS Y MOTRICES</span></button>
                     </div> <!-- end of button group -->
-                    <div class="grid">
+                    <div class="grid" aria-live="polite">
                         <div class="element-item daltonismo">
                             <img class="img-fluid" src="images/daltonismo.jpg" alt="Imagen de daltonismo colores" tabindex="8">
                         </div>
