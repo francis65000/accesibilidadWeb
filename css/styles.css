@@ -41,6 +41,10 @@ ESTILOS PERSONALIZADOS
     line-height: 90px;
 }
 
+.formulario {
+	color: white;
+}
+
 .tabla {
 	border: 2px solid black;
 }
